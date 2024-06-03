@@ -114,6 +114,7 @@ public class matrizes {
         	}
         	System.out.print('\n');
     	}
+    	
     	sc.close();
 	}
 }
