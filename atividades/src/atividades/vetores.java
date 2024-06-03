@@ -46,7 +46,7 @@ public class vetores {
         numeros[0] = sc.nextInt();
         
         soma = numeros[1] + numeros[0];
-        System.out.println(numeros[1] + " + " + numeros[0] + " + " + " = " + soma);
+        System.out.println(numeros[1] + " + " + numeros[0] + " = " + soma);
         
         System.out.println("A média de desses valores é: " + (soma / 2));
         
