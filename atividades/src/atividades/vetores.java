@@ -21,8 +21,8 @@ public class vetores {
         //Soma
         for(int i = 0; i < numArr; i++){
             soma += numeros[i];
-            
         }
+		
         System.out.println("A soma dos valores é igual a " + soma);
         
         //Media
@@ -45,10 +45,12 @@ public class vetores {
         System.out.print("Digite um valor:");
         numeros[0] = sc.nextInt();
         
-        soma = numeros[1] + numeros[0];
-        System.out.println(numeros[1] + " + " + numeros[0] + " = " + soma);
+        for(int i = 0; i < numArr; i++){
+            soma += numeros[i];
+        }
+        System.out.println("A soma do vetor é " + soma);
         
-        System.out.println("A média de desses valores é: " + (soma / 2));
+        System.out.println("A média da soma é: " + (soma / numArr));
         
         sc.close();
         
